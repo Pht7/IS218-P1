@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <link href="style.css" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <title>Linux vi Editor Basics</title>
+    <title>Git Commands</title>
   </head>
-  	  <link rel="stylesheet" href="style.css">
+  		  <link rel="stylesheet" href="style.css">
 	<div class="navBar">
 	<button class="testButton"> <a href="git.html"> Git</a></button>
 	<button class="testButton"><a href="index.html"> Docker</a></button>
@@ -23,35 +22,20 @@
 	<button class="testButton"> <a href="PythonArticles.html"> OOP</a></button>
 	<button class="testButton"> <a href="FacadeMethod.html"> Facade Method</a></button>
 	</div> 
-		<br> 
+		<br> <
   <body>
-    <h1>Hello, world!</h1>
-	<h2> How to use docker </h2>
-	<li> 1) Install DockerHub </li>
-	<li> 2) Create an ApacheDocker folder </li>
-	<li> 3) Make sure to include all files shown in the github <a href="https://github.com/Pht7/IS218-P1"> Click here </a> </li>
-	<li> 4) cd into the correct folder </li>
-	<li> 5) Go onto DockerHub and create new Repo </li>
-	<li> 6) <code> docker build -t username/repoNamehere . </code> </li>
-	<li> 7) <code> docker push pht7/firstproject:latest </code></li>
-	<li> 8) <code>docker context use [contextName] </code></li>
-	<li> 9) <code>docker run --name (anyNameHERE) --domainname (anyNameHERE) -dp 80:80 username/repoNamehere:latest </code></li>
-	<li> 10) Run: <code>docker ps </code> and get the IP which will look like this history2.eastus.azurecontainer.io:80 and enter in a browser</li>
-    <!-- Optional JavaScript; choose one of the two! -->
-	
+
+    <h2> Useful Git Commands </h2>
+	<li> <code>git add . </code>  <p> This commands allows you to add all current items you are working on into your commits </p> </li> 
+	<li> <code>git add (fileNameHere) </code>  <p> This commands allows you to add current file you are working on into your commits </p> </li> 
+	<li> <code>git status </code>  <p> This commands allows you to see which files you have changed and not added using the command above</p> </li> 
+	<li> <code>git commit -m "what did you change here" </code>  <p> This commands will allow you once you added the files , to be able to save the changes you made so that later you can put your code on a Repo. The message is important because it will allow others who work on the same code to see why you made the changes and what it does to the program.</p> </li> 
+	<li> <code>git pull origin (branch) </code>  <p> Before adding your code to the others you must make sure that others have not made the same changes on your code and files. Pulling will allow you to get the most up to date changes from the code. This may result in a merge conflict</p> </li> 
+	<li> <code>git push origin (branch) </code>  <p> This allows you to finally add your code to both Repo and others when they pull. Your changes can now we be viewed on your Repo.</p> </li> 
+	<li> <code>git branch (name) </code>  <p> This command will create a new branch of the current branch you are working on. It will NOT put you into that branch</p> </li> 
+	<li> <code>git checkout (branch) </code>  <p> This command allows you to move from one branch to another branch</p> </li> 
 	<br> <br>
-	
-	<h2> Need more help with docker? Click the button below</h2>
-	
-	<button> <a href="https://docs.docker.com/"> Click me </a> </button>
-		<button> <a href="git.html"> Go to GIT</a></button>
-	
-	<ul>
-      <li>With linux vi you are able to create, edit, and even delete files.</li>
-      <li>You can remember how to use the vi editor with three simple steps; first you open up the file you want to edit using the command “vi textfile.example” and hitting the I character. Then you type in whatever text you would like to add. Then you hit semi-colon and “wq” to write and save your file </li>
-      <li>There are some further vi commands that are useful such as “/string” to find occurrences of a specified string </li>
-    </ul> 
-	
+	<button> <a href="landing.html"> Go Back</a></button>
 	
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
